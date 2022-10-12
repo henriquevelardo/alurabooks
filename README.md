@@ -3,7 +3,7 @@ Projeto curso responsividade alura
 
 Metodologia Mobile First
 
-Ampliado para (@1024px - @1720px)
+Ampliado utilizando Media Queries (@1024px - @1720px)
 
 Linguagens: HTML / CSS
 
