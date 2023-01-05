@@ -9,3 +9,6 @@ Linguagens: HTML / CSS
 
 Biblioteca: SwiperJS
 
+API: viaCEP para pagina de cadastro
+
+
