@@ -1,5 +1,6 @@
 # Alurabooks
-Projeto curso responsividade alura
+Projeto academico
+
 
 Metodologia Mobile First
 
