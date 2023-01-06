@@ -45,6 +45,7 @@
                 </ul>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+                
             </ul>
             <div class="container">
                 <a href="#" >
@@ -54,13 +55,22 @@
                     <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
                     <p class="container__texto">Minha Sacola</p>
                 </a>
-                <a href="#" class="container__link">
+                <a href="#" class="container__link" id="perfil">
                     <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
                     <p class="container__texto">Meu perfil</p>
                 </a>
             </div>
+            <div class="box-perfil">
+                <ul class="lista-menu__perfil">
+                    <li class="lista-menu__item"><a href="" class="lista-menu__link">Foto</a></li>
+                    <li class="lista-menu__item"><a href="cadastro.html" class="lista-menu__link">Cadastro</a></li>
+                </ul>
+            </div>
         </header>
+
+
         <section class="banner">
+            
             <h2 class="banner__titulo">Já sabe por onde começar?</h2>
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
@@ -282,6 +292,7 @@
 
         </footer>    
 
+        <script src="scriptIndex.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {

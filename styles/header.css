@@ -15,6 +15,7 @@
     background: var(--azul-degrade);
 }
 
+
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -28,6 +29,7 @@
     align-items: center;
 }
 
+
 .container__imagem{
     padding: 1em;
 }
@@ -38,6 +40,20 @@
     position: absolute;
     top: 100%;
 }
+
+.box-perfil{
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+
+.box-perfil--ativo{
+    display: block;
+    right: 0;
+}
+
+
+
 
 .container__botao:checked ~.lista-menu{
     display: block;
